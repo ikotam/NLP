@@ -1,11 +1,13 @@
 def Tab2Space(file):
-    f = open(file, "r")
-    lines = f.readlines()
+    fi = open(file, "r")
+    fo = open(file+'out', 'w')
+    lines = fi.readlines()
 
     for line in lines:
-        print(line.replace('\t', " "))
-    
-    f.close
+        # print(line.replace('\t', " "))
+        fo.write(line.replace('\t', " ") + '\n')
+    fi.close
+    fo.close
 
 
 
