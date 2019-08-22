@@ -1,0 +1,53 @@
+{"fold": "train", "topic": "attitude_and_emotion", 
+	"dialogue": [
+		{"emotion": "no_emotion", "act": "directive", "text": "Say , Jim , how about going for a few beers after dinner ?"}, 
+		{"emotion": "no_emotion", "act": "commissive", "text": "You know that is tempting but is really not good for our fitness ."}, 
+		{"emotion": "no_emotion", "act": "question", "text": "What do you mean ? It will help us to relax ."}, 
+		{"emotion": "no_emotion", "act": "question", "text": "Do you really think so ? I don't . It will just make us fat and act silly . Remember last time ?"}, 
+		{"emotion": "no_emotion", "act": "question", "text": "I guess you are right . But what shall we do ? I don't feel like sitting at home ."}, 
+		{"emotion": "no_emotion", "act": "directive", "text": "I suggest a walk over to the gym where we can play singsong and meet some of our friends ."}, 
+		{"emotion": "happiness", "act": "commissive", "text": "That's a good idea . I hear Mary and Sally often go there to play pingpong . Perhaps we can make a foursome with them ."}, 
+		{"emotion": "happiness", "act": "inform", "text": "Sounds great to me ! If they are willing , we could ask them to go dancing with us . That is excellent exercise and fun , too ."}, 
+		{"emotion": "happiness", "act": "directive", "text": "Good . Let ' s go now ."}, 
+		{"emotion": "happiness", "act": "commissive", "text": "All right ."}]}
+{"fold": "train", "topic": "relationship", 
+	"dialogue": [
+		{"emotion": "no_emotion", "act": "question", "text": "Can you do push-ups ?"}, 
+		{"emotion": "no_emotion", "act": "inform", "text": "Of course I can . It's a piece of cake ! Believe it or not , I can do 30 push-ups a minute ."}, 
+		{"emotion": "surprise", "act": "question", "text": "Really ? I think that's impossible !"}, 
+		{"emotion": "no_emotion", "act": "question", "text": "You mean 30 push-ups ?"}, 
+		{"emotion": "no_emotion", "act": "inform", "text": "Yeah !"}, 
+		{"emotion": "no_emotion", "act": "inform", "text": "It's easy . If you do exercise everyday , you can make it , too ."}
+	]}
+
+ACTS = [
+    'no_act',
+    'inform',
+    'question',
+    'directive',
+    'commissive',
+]
+
+EMOTIONS = [
+    'no_emotion',
+    'anger',
+    'disgust',
+    'fear',
+    'happiness',
+    'sadness',
+    'surprise',
+]
+
+TOPICS = [
+    'no_topic',
+    'ordinary_life',
+    'school_life',
+    'culture_and_educastion',
+    'attitude_and_emotion',
+    'relationship',
+    'tourism',
+    'health',
+    'work',
+    'politics',
+    'finance',
+]
